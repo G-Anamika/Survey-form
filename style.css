@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:lightgray;  
+    font-family:sans-serif;
+}
+
+.main {
+    max-width: 800px;
+    margin:5px;
+    padding: 80px;
+    background-color:white;
+    padding-top:5px;
+}
+
+.title{
+    text-align:center;
+}
+
+#title-header {
+    color: red;
+}
+
+#description{
+    font-size:20px;
+}
+
+#name, #email, #number {
+    width: 320px;
+    margin-bottom: 10px;
+    padding:10px;
+}
+#dropdown{
+    Margin-bottom:15px;
+    width:290px;
+    padding:10px;
+}
+
+.input-radio{
+    margin:10PX;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+}
+
+.input-radio{
+    margin-top: -2px;
+}
+
+.label-checkbox{
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:5px;
+    width:320px;
+}
+.comment{
+    margin-bottom:5px;
+}
+#submit{
+    width:320px;
+    background-color: lightgrey;
+    color: black;
+    padding:20px;
+    border-radius:10px;
+    
+
+}
+
+    
+
+

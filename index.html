@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+    <head>
+    <title> Survery Page </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+    <main class="main">
+        <div class="title">
+            <h1 id="title-header"> Survey Form </h1>
+            <p id="description">This is the survey conducted to know the employee satisfaction.</p><br>
+        </div>
+        <form id="survey-form">
+            <label id="name-label"> Name: </label>
+            <input type="text" value="name" id="name" placeholder="your name"> <br>
+            <label id="email-label"> Email: </label>
+            <input type="email" value="email" id="email" placeholder="your email address" ><br>
+            <label id="number-label"> Number:</label>
+            <input type="number" id="number" placeholder="number" min="2" max="30"> <br>
+           <label> Name of the facility:</label>
+            <select id="dropdown">
+               <option value="Queenspark">Queenspark</option>
+               <option value="Marrubbaa">Marrubbaa</option>
+               <option value="Ashfield">Ashfield</option>
+            </select>
+            <br>
+            <div class="radio">
+                <label id="radio-label"> 
+                    Employee Statisfaction:
+                </label>
+                <div class="input-radio">
+                    <label><input type="radio"name="satisfaction level" value="Very High" checked> very high</label><br>
+                    <label><input type="radio"name="satisfaction level" value="Average">average</label> <br>
+                    <label><input type="radio"name="satisfaction level" value="Very Low">very low</label><br>
+                </div>
+            </div>
+            <div class="training">
+               <label id="checkbox"> Training you have attended in 2019?</label><br>
+                 <div class="label-checkbox">
+                <input type="checkbox" Name="trainings" value="dementia">  I have got Dementia  training<br>
+                <input type="checkbox" Name="trainings" value="best-meds">  I have got BestMeds training <br>
+                <input type="checkbox" Name="trainings" value="Manual handeling">  I have got Manual Handeling training <br>
+                <input type="checkbox" Name="trainings" value="fire training">  I have got fire training <br>
+            </div>
+            </div>
+            <div class="comment section">
+                 <div class="comment">
+                 <label> Leave a Comment:</label>
+                 </div>
+                 <div class="textarea">
+                 <textarea  rows="10" cols="40"name="comment" form="Survey Form"> Enter text here </textarea>
+                 </div>
+            <input type ="submit" id="submit" />
+            </div>
+            </div>
+            </div>
+        </form>
+    </main>
+    </body>
+
+</html>
